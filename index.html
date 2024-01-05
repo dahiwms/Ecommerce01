@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Ecommerce</title>
 </head>
 <body>
-    <header>
-        <h1>Tienda Muebles</h1>
+    <header class="header">
+        <h1>Tienda <span>Muebles</span></h1>
     </header>
 
-    <nav>
+    <div class="nav-container">
 
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-    
+        <nav class="nav-principal container">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+        
+    <div class="hero"></div>
+
     <section>
         <h2>Categoria de Productos</h2>
         
@@ -123,27 +129,35 @@
     <footer>
         <div>
             <h3>Categoria</h3>
-            <a href="#">Jardin</a>
-            <a href="#">Cochera</a>
-            <a href="#">Cocina</a>
-            <a href="#">Dormitorios</a>
-            <a href="#">Oficina</a>
+            <nav>
+
+                <a href="#">Jardin</a>
+                <a href="#">Cochera</a>
+                <a href="#">Cocina</a>
+                <a href="#">Dormitorios</a>
+                <a href="#">Oficina</a>
+            </nav>
         </div> <!-- End Categoria -->
 
         <div>
             <h3>Sobre Nosotros</h3>
-            <a href="#">Nuestra Historia</a>
-            <a href="#">Mision, vision y valores</a>
-            <a href="#">Carreras</a>
-            <a href="#">Politicas de Privacidad</a>
-            <a href="#">Terminos de Servicios</a>
+            <nav>
+
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Mision, vision y valores</a>
+                <a href="#">Carreras</a>
+                <a href="#">Politicas de Privacidad</a>
+                <a href="#">Terminos de Servicios</a>
+            </nav>
         </div> <!-- End Categoria -->
 
         <div>
             <h3>Soporte</h3>
-            <a href="#">Preguntas Frecuentes</a>
-            <a href="#">Ayuda en Linea</a>
-            <a href="#">Confianza y Seguridad</a>
+            <nav>
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Ayuda en Linea</a>
+                <a href="#">Confianza y Seguridad</a>
+            </nav>
         </div> <!-- End Categoria -->
         <p>Todos los derechos reservados </p>
     </footer>
