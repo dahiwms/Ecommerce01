@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Ecommerce</title>
 </head>
 <body>
@@ -26,38 +29,43 @@
         
     <div class="hero"></div> <!-- imagen hero -->
 
-    <section>
+    <section class="container categorias">
         <h2>Categoria de Productos</h2>
-        
-        <div>
-            <img src="images/categoria1.jpg" alt="imagen de categoria 1">
-            <a href="#">Oficina</a>
-        </div>
-        <div>
-            <img src="images/categoria2.jpg" alt="imagen de categoria 2">
-            <a href="#">Hogar</a>
-        </div>
-        <div>
-            <img src="images/categoria3.jpg" alt="imagen de categoria 3">
-            <a href="#">Cocina</a>
+        <div class="categoria-productos">
+
+            <div class="categoria">
+                <img src="images/categoria1.jpg" alt="imagen de categoria 1">
+                <a href="#">Oficina</a>
+            </div>
+            <div class="categoria">
+                <img src="images/categoria2.jpg" alt="imagen de categoria 2">
+                <a href="#">Hogar</a>
+            </div>
+            <div class="categoria">
+                <img src="images/categoria3.jpg" alt="imagen de categoria 3">
+                <a href="#">Cocina</a>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div>
-            <h2>Sobre Nosotros</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorum adipisci repellat enim dignissimos libero repellendus maxime nulla consequatur inventore facere cumque veniam beatae voluptates nobis rerum ipsum earum cupiditate.</p>
+    <section class="about-us">
+        <div class="container about-us-grid">
+            <div class="texto-nosotros">
+
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolorum adipisci repellat enim dignissimos libero repellendus maxime nulla consequatur inventore facere cumque veniam beatae voluptates nobis rerum ipsum earum cupiditate.</p>
+            </div>
         </div>
     </section>
 
     <!-- MAIN -->
-    <main>
+    <main class="contenido-principal container">
         
         <h2>Nuestros Productos</h2>
         
-        <div>  
+        <div class="listado-productos">  
 
-            <div>
+            <div class="producto">
                 <img src="images/producto1.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 1</h3>
@@ -68,7 +76,7 @@
 
             </div> <!-- Producto -->
 
-            <div>
+            <div class="producto">
                 <img src="images/producto2.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 2</h3>
@@ -79,7 +87,7 @@
 
             </div> <!-- Producto -->
 
-            <div>
+            <div class="producto">
                 <img src="images/producto3.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 3</h3>
@@ -89,7 +97,7 @@
                 </div> <!-- Informacion del producto -->
             </div> <!-- Producto -->
 
-            <div>
+            <div class="producto">
                 <img src="images/producto4.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 4</h3>
@@ -99,7 +107,7 @@
                 </div> <!-- Informacion del producto -->
             </div> <!-- Producto -->
 
-            <div>
+            <div class="producto">
                 <img src="images/producto5.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 5</h3>
@@ -109,7 +117,7 @@
                 </div> <!-- Informacion del producto -->
             </div> <!-- Producto -->
 
-            <div>
+            <div class="producto">
                 <img src="images/producto6.jpg" alt="imagen producto">
                 <div>
                     <h3>Producto 6</h3>
